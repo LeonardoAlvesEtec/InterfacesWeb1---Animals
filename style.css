@@ -1,0 +1,57 @@
+body, ul, li, p{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    font-family: fantasy;
+}
+
+h1{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: chocolate;
+    
+}
+
+.header{
+    background-color: #1d1e20;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 20px;
+}
+
+.menu{
+    display: flex;
+}
+
+.menu li{
+    margin-left: 15px;
+}
+
+.menu a{
+    display: block;
+}
+
+#container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: aliceblue;
+}
+
+.item{
+    background-color: blueviolet;
+    color: rgb(252, 196, 244);
+    padding: 20px;
+    margin: 5px;
+    width: 300px;
+}
+
+img{
+    width: 295px;
+    height: 180px;
+}
+
